@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-display: "Space Grotesk", sans-serif;
+  --font-body: "Inter", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-navy-900 font-body antialiased;
+}
+
+::selection {
+  @apply bg-electric-500/30 text-navy-900;
+}
+
+/* Signature "squeegee wipe" divider used between sections */
+.wipe-divider {
+  position: relative;
+  overflow: hidden;
+}
+.wipe-divider::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(100deg, transparent 40%, rgba(255,255,255,0.5) 50%, transparent 60%);
+  transform: translateX(-120%);
+}
+
+.eyebrow {
+  @apply inline-flex items-center gap-2 text-xs font-semibold tracking-[0.2em] uppercase text-electric-600;
+}
+
+.section-pad {
+  @apply px-6 md:px-10 lg:px-16 py-20 md:py-28;
+}
+
+.container-max {
+  @apply max-w-7xl mx-auto;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
