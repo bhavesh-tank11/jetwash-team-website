@@ -27,7 +27,7 @@ export const services = [
     slug: "driveway-cleaning",
     title: "Driveway Cleaning",
     desc: "Block paving, tarmac and concrete driveways restored to a like-new finish with sealant options available.",
-    image: "/driveway.jpg",
+    image: "/Driveway.jpg",
   },
 
   // 👇 PATIO CLEANING PHOTO — replace this URL anytime with your own
@@ -43,7 +43,7 @@ export const services = [
     slug: "gutter-cleaning",
     title: "Gutter Cleaning",
     desc: "Full debris clearance and flow-testing to prevent water damage and costly repairs.",
-    image: "/gutter.jpg",
+    image: "/Gutter.jpg",
   },
 
   {
