@@ -19,7 +19,7 @@ export const services = [
     slug: "roof-cleaning",
     title: "Roof Cleaning",
     desc: "Moss and lichen removal that protects your roof structure and restores its original appearance.",
-    image: "https://images.unsplash.com/photo-1632759145355-6d4b23e5b4e6?w=800&q=80",
+    image: "/roofcleaning.jpg",
   },
 
   // 👇 DRIVEWAY CLEANING PHOTO — replace this URL anytime with your own
@@ -27,7 +27,7 @@ export const services = [
     slug: "driveway-cleaning",
     title: "Driveway Cleaning",
     desc: "Block paving, tarmac and concrete driveways restored to a like-new finish with sealant options available.",
-    image: "https://images.unsplash.com/photo-1600607687644-c7171b42498b?w=800&q=80",
+    image: "/driveway.jpg",
   },
 
   // 👇 PATIO CLEANING PHOTO — replace this URL anytime with your own
@@ -35,7 +35,7 @@ export const services = [
     slug: "patio-cleaning",
     title: "Patio Cleaning",
     desc: "Deep clean for slabs and stone patios, lifting embedded dirt from every joint and groove.",
-    image: "https://images.unsplash.com/photo-1595514535215-8f9ab5dfdc90?w=800&q=80",
+    image: "/patio.jpg",
   },
 
   // 👇 GUTTER CLEANING PHOTO — replace this URL anytime with your own
@@ -43,7 +43,7 @@ export const services = [
     slug: "gutter-cleaning",
     title: "Gutter Cleaning",
     desc: "Full debris clearance and flow-testing to prevent water damage and costly repairs.",
-    image: "https://images.unsplash.com/photo-1632942678767-9e4a0d5dc2e3?w=800&q=80",
+    image: "/gutter.jpg",
   },
 
   {
@@ -58,7 +58,7 @@ export const services = [
     slug: "deck-cleaning",
     title: "Deck Cleaning",
     desc: "Timber-safe cleaning that removes algae and grey weathering, ready for oiling or staining.",
-    image: "https://images.unsplash.com/photo-1601045220780-b7f92ccce6e5?w=800&q=80",
+    image: "/deck.jpg",
   },
 
   {
