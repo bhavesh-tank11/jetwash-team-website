@@ -45,7 +45,7 @@ export default function Navbar() {
 
           <Image
             src="/jetwash.png"
-            alt="The Jet Wash Team"
+            alt="THE JETWASH TEAM"
             width={200}
             height={200}
             priority
